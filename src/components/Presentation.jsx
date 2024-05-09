@@ -1,8 +1,10 @@
 import React from "react";
 import { useConversations } from "chat/functions";
+import "../index.scss";
 
 const Presentation = () => {
   const { handleCreateConversation } = useConversations();
+
   return (
     <div className="max-w-4xl mx-auto px-5 py-10">
       <div>
